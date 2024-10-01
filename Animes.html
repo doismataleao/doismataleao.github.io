@@ -104,18 +104,6 @@ div {
   <body>
   meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-  div {
-  width: 180px;
-  height: 180px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
-}
-
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
 body {
   background-color: lightgreen;
 }
@@ -138,4 +126,24 @@ body {
   body {
     background-color: lightblue;
   }
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muda Cor ao Rolar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Role para ver a mudança de cor!</h1>
+        <p>Continue rolando para cima e para baixo para ver a mágica acontecer.</p>
+        <p>Adicione mais conteúdo aqui para rolar.</p>
+        <p style="height: 200vh;"></p> <!-- Aumenta a altura da página -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
 
